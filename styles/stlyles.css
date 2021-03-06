@@ -1,0 +1,54 @@
+/*font-family: 'Montserrat', sans-serif;*/
+/*font-family: 'Syne Tactile', cursive;*/
+.body {
+  font-family: "Montserrat", sans-serif;
+  margin: 0 2rem;
+  background-color: black;
+}
+.navbar-brand {
+  font-family: "Syne Tactile", cursive;
+  font-weight: bold;
+  font-size: 1.8rem;
+}
+.doug-pic {
+  border: white solid 2px;
+  border-radius: 50%;
+  width: 20rem;
+}
+#favorites {
+  text-align: center;
+}
+/* Cards Section*/
+.card {
+  margin-bottom: 2rem;
+}
+.carousel-inner {
+  background-color: #17a2b8;
+  padding: 7% 15%;
+  color: white;
+}
+video {
+  margin-right: auto;
+}
+.favorites-text {
+  padding-bottom: 3rem;
+}
+footer {
+  text-align: center;
+  padding-top: 1.5rem;
+  background-color: #17a2b8;
+  color: white;
+}
+i {
+  padding-left: 1.5rem;
+  padding-right: 1.5rem;
+}
+footer p {
+  padding-bottom: 1.5rem;
+}
+/*Media Quires */
+@media (max-width: 760px) {
+  .card {
+    text-align: center;
+  }
+}
